@@ -1,0 +1,15 @@
+ What are the limitations of EntityManager methods to perform CRUD operations with
+DB?
+ Ans =>
+       In Entity manager to perform CRUD operation we use 
+       persist(),find(),merge() and remove() methods.
+
+       So in this,In persist() method we can get object on based on only primary key
+       not by any other paramaters.
+
+       if we need to find multiple record it's not possible in this.Like in JDBC we can get 
+       ResultSet and get the multiple records but in this it's not possible.
+
+       if we want to update and delete more than one records it's not possible in this.
+
+       if we want to access a specific type of records we can enter any conditions.
